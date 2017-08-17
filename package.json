@@ -1,0 +1,28 @@
+{
+  "name": "NodejsStarterApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "tests-unit": "grunt mochaTest"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cfenv": "1.0.x",
+    "express": "4.15.x",
+    "grunt": "^1.0.1",
+    "mocha": "^3.5.0",
+    "should": "^11.2.1",
+    "supertest": "^3.0.0"
+  },
+  "repository": {},
+  "engines": {
+    "node": "6.x"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "grunt-mocha-test": "^0.13.2",
+    "mocha": "^3.5.0",
+    "supertest": "^3.0.0"
+  }
+}
